@@ -1,0 +1,11 @@
+.form-group--inline {
+  input {
+    display: inline-block;
+  }
+}
+
+.input-combine {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}

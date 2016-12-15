@@ -1,0 +1,25 @@
+[
+  {
+    "applyCode": 1001,
+    "orderCode": 2305,
+    "clientAccount": 1230,
+    "clientName": "王三",
+    "clientCertification": "12344121569854",
+    "clientPhone": 13541456985,
+    "registerTime": "2016-11-18 14:22",
+    "companyName": "上文引力",
+    "deliveryType": "托管人",
+    "productName": "航天钞",
+    "productCode": 1433431,
+    "productUnit": "枚",
+    "orderNum": 1000,
+    "auctualNum": 1000,
+    "productPrice": 100,
+    "qualifiedNum": 1000,
+    "backNum": 0,
+    "authenticateRate": 0.01,
+    "authenticateMoney": 100,
+    "productPriceRate": 0.03,
+    "productPriceMoney": 100
+  }
+]
