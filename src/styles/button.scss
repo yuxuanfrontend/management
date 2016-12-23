@@ -1,13 +1,29 @@
 @import "./colors.scss";
 
-.vl-btn {
-  width: 100%;
-  line-height: px2rem(80);
-  padding: 0 px2rem(20);
+@mixin buttonTypeCommon() {
+  border: 0;
+  color: $color-white;
+}
+
+.vm-btn {
+  // width: 60px;
+  line-height: 20px;
+  padding: 8px 10px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 2px;
   box-sizing: border-box;
+  background-color: $color-white;
+  border: 1px solid $border-gray;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  &:hover {
+    background-color: $background-gray;
+  }
+
+  &:active {
+    color: $color-white;
+    background-color: $background-grayer;
+  }
 
   &--confirm {
     color: $color-white;
@@ -18,13 +34,59 @@
     }
   }
 
+  &--primary {
+    @include buttonTypeCommon();
+    background-color: $primary;
+
+    &:hover {
+      background-color: $primary-hover;
+    }
+  }
+
+  &--info {
+    @include buttonTypeCommon();
+    background-color: $info;
+
+    &:hover {
+      background-color: $info-hover;
+    }
+  }
+
+  &--success {
+    @include buttonTypeCommon();
+    background-color: $success;
+
+    &:hover {
+      background-color: $success-hover;
+    }
+  }
+
+  &--warning {
+    @include buttonTypeCommon();
+    color: $color-black;
+    background-color: $warning;
+
+    &:hover {
+      background-color: $warning-hover;
+    }
+  }
+
+  &--danger {
+    @include buttonTypeCommon();
+    background-color: $danger;
+
+    &:hover {
+      background-color: $danger-hover;
+    }
+  }
+
   &--vertification {
-    width: px2rem(190);
+    width: 190;
     color: $color-white;
     background-color: $color-orange;
-    margin-left: px2rem(16);
-    padding: 0 px2rem(8);
-    line-height: px2rem(76);
+    margin-left: 16;
+    padding: 0 8;
+    line-height: 76;
 
     &:active {
       background-color: $color-orange-active;
@@ -33,8 +95,7 @@
 
   &--inline {
     display: inline-block;
-    width: px2rem(160);
-
+    width: 160;
   }
 
   &--disabled {

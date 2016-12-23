@@ -1,15 +1,29 @@
 @import "./colors.scss";
 
+html {
+  background-color: $background-white;
+  overflow-y: auto;
+}
+
 body {
   font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
   color: $font-black;
   background-color: $background-white;
 }
 
-input {
-  border: 1px solid #000;
-  outline: 0;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  box-sizing: border-box;
+.vm-vertical-block {
+  margin: 20px 0;
 }
+
+// input {
+//   border: 1px solid #000;
+//   outline: 0;
+//   // -webkit-appearance: none;
+//   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+//   box-sizing: border-box;
+// }
+//
+// button {
+//   border-width: 0;
+//   outline: 0;
+// }

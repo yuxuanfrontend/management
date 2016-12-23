@@ -1,6 +1,7 @@
 $font-black: #000;
 
 $color-white: #fff;
+$color-black: #000;
 $color-red: #c7000a;
 $color-red-active: darken($color-red, 10%);
 $color-gray: #999999;
@@ -17,3 +18,15 @@ $background-gray: #f7f7f7;
 $background-grayer: #92a0ad;
 $background-red: #c7000a;
 $background-red--active: darken($background-red, 10%);
+
+
+$primary: #00d1b2;
+$primary-hover: #00b89c;
+$info: #3273dc;
+$info-hover: #2366d1;
+$success: #23d160;
+$success-hover: #20bc56;
+$warning: #ffdd57;
+$warning-hover: #ffd83d;
+$danger: #ff3860;
+$danger-hover: #ff1f4b;
